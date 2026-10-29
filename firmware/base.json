@@ -1,0 +1,9 @@
+{
+  "device_id": 2782,
+  "version": "V502",
+  "download_url": "https://api2.rongyuan.tech:3816/download/fw_upgrade_file/2782_v502",
+  "compression": "raw-deflate",
+  "decoded_bytes": 133696,
+  "decoded_sha256": "2e188151b6025aac685855c6088959fa3d9c9058d9055bfb07a92c380b68f306",
+  "expected_patched_sha256": "b17a120cdd266c67dbc529e6972a6c452ad29923487d1c96a2700d05d9b0d753"
+}

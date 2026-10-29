@@ -1,0 +1,10 @@
+{
+  "plugin_version": "0.4.0-rc.1",
+  "plugin_simulated_tests": 14,
+  "python_tests": 26,
+  "rebuild_matches_installed_experimental_image": true,
+  "new_hardware_flash_operations": 0,
+  "publication_status": "private review release requested",
+  "layout_page": "SignalRGB device rectangle; individual LEDs registered for painting",
+  "hardware_recovery_proven": false
+}

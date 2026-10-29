@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+*.exe
+*.bin
+*.download
+dados/
+known_device.json
+last_update.json
+*.log
+*.pcap*

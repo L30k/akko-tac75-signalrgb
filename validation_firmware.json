@@ -1,0 +1,27 @@
+{
+  "status": "PASS in emulation; NOT a hardware qualification",
+  "patched_sha256": "b17a120cdd266c67dbc529e6972a6c452ad29923487d1c96a2700d05d9b0d753",
+  "usb_packets": 134,
+  "led_differential_cases": 1598,
+  "legacy_commands": 16,
+  "rgb_frames": 16,
+  "snapshot_context_reads_with_interrupts_masked": 6723,
+  "ram_context_reserved_without_static_overlap": true,
+  "original_compressed_ram_initializer_executed": true,
+  "initialized_data_references_into_reserved_context": 0,
+  "heap_capacity_preserved": true,
+  "stack_reserved_bytes": 15840,
+  "maximum_stack_depth_observed_in_these_paths": 60,
+  "hardware_stack_peak_measured": false,
+  "bootloader_byte_identical": true,
+  "flash_or_peripheral_writes_in_executed_paths": 0,
+  "persistence_flags_unchanged_by_rgb_packets": true,
+  "hardware_tests": 0,
+  "instrumentation": "Flash read/execute-only; hardware unmapped; instruction trace and RAM before/after comparison. Memory callbacks were not used for Thumb conditional-store encoder paths because they changed baseline execution in this emulator build.",
+  "remaining": [
+    "Worst-case stack/interrupt timing on hardware",
+    "USB enumeration in boot and recovery",
+    "Physical LED ordering and frame rate",
+    "DMA timing/electrical output on the actual board"
+  ]
+}

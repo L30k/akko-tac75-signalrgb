@@ -1,0 +1,24 @@
+{
+  "status": "PASS against the original boot parser with virtual flash",
+  "cases": [
+    {
+      "target": "original",
+      "blocks_programmed_in_virtual_flash": 1769,
+      "bytes": 113216,
+      "bootloader_checksum_status": "0x55, success",
+      "payload_byte_exact": true,
+      "virtual_bootloader_untouched": true
+    },
+    {
+      "target": "RAM1_EXPERIMENTAL",
+      "blocks_programmed_in_virtual_flash": 1863,
+      "bytes": 119232,
+      "bootloader_checksum_status": "0x55, success",
+      "payload_byte_exact": true,
+      "virtual_bootloader_untouched": true
+    }
+  ],
+  "physical_device_access": false,
+  "hardware_flash_operations": 0,
+  "scope": "Original 0xBA/0xC0 start, 64-byte block parser and 0xBA/0xC2 checksum verification executed. Unlock/lock/program are stubs. Enumeration/reset/real flash electronics remain untested."
+}
