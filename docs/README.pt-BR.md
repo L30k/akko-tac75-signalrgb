@@ -4,11 +4,13 @@
 
 Plugin de iluminação individual mantido por [L30k](https://github.com/L30k), com comunicação USB direta e taxa fixa de **5 FPS**. Dispensa o aplicativo ponte durante o uso.
 
-## Requisito e limites
+## Desenvolvimento com assistência de IA
 
-Exige o firmware modificado **ID2782/V502 RAM1**. O plugin não instala firmware e recusa transmitir cores sem a assinatura RAM1. A modificação foi experimentada em uma unidade; isso não comprova compatibilidade com outros lotes nem recuperação em qualquer falha.
+Desenvolvido com assistência do OpenAI Codex — **GPT-6.1 Sol**.
 
-A gravação experimental pode impedir a inicialização. O retorno pelo aplicativo depende de bootloader USB acessível. O pacote de firmware oficial é uma imagem de atualização, não um backup completo da unidade.
+## Firmware necessário
+
+Exige o firmware modificado **ID2782/V502 RAM1**.
 
 ## Instalação, para quem já tem RAM1
 

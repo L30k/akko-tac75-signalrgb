@@ -8,11 +8,13 @@ Direct per-key lighting for the Akko TAC75 HE, maintained by [L30k](https://gith
 
 ![83-key LED map](assets/keyboard-map.svg)
 
-## Experimental: read before installing
+## AI-assisted development
 
-This plugin requires the **modified ID2782/V502 RAM1 firmware**. It does not add per-key streaming to stock firmware by itself, and refuses color streaming without the RAM1 capability signature. The firmware modification has only been tried on one owner's keyboard. Basic typing, the three-key color test, return to built-in effects, and continuous effects through the earlier bridge were reported working. This is not general hardware qualification. The direct plugin was loaded in SignalRGB; long-term stability and every physical key position remain unqualified.
+Developed with assistance from OpenAI Codex — **GPT-6.1 Sol**.
 
-Installing experimental firmware can leave a keyboard unable to start. USB restoration requires a reachable bootloader; the supplied updater cannot guarantee recovery. **Do not flash another model or assume a matching USB ID is sufficient.** This repository is not affiliated with Akko or SignalRGB.
+## Firmware requirement
+
+Requires the modified **ID2782/V502 RAM1 firmware**.
 
 ## Compatibility
 
